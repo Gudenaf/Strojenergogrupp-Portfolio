@@ -6,18 +6,33 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230106075748">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230307141852">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
+	<section class="preloader">
+		<div class="banter-loader__wrap">
+			<div class="banter-loader">
+				<div class="banter-loader__box"></div>
+				<div class="banter-loader__box"></div>
+				<div class="banter-loader__box"></div>
+				<div class="banter-loader__box"></div>
+				<div class="banter-loader__box"></div>
+				<div class="banter-loader__box"></div>
+				<div class="banter-loader__box"></div>
+				<div class="banter-loader__box"></div>
+				<div class="banter-loader__box"></div>
+			</div>
+		</div>
+	</section>
 	<div class="wrapper">
 		<header data-scroll="110" data-scroll-show class="header">
 			<div class="header__container">
 				<div class="header__menu menu">
-					<a href="#" data-goto=".intro" data-goto-header class="header__title title">стройэнергогрупп</a>
+					<a href="#" class="header__title title">стройэнергогрупп</a>
 					<div class="menu__wrapper">
 						<nav class="menu__body">
 							<a href="#" data-goto=".intro" data-goto-header class="header__logo"><img src="img/intro/logo-big.svg" alt="Header Logo"></a>
@@ -41,9 +56,9 @@
 				<section class="intro">
 					<div class="intro__video-wrapper video__wrapper">
 						<div class="video">
-							<video poster="img/intro/intro-video.webp" autoplay="true" preload="auto" muted="muted" loop="true">
-								<source src="videos/descriptor.webm" type="video/webm">
-								<source src="videos/descriptor.mp4" type="video/mp4">
+							<video poster="img/intro/intro-video.png" autoplay preload="auto" muted="muted" loop>
+								<source src="files/videos/descriptor.webm" type="video/webm">
+								<source src="files/videos/descriptor.mp4" type="video/mp4">
 							</video>
 							<div class="video__line"></div>
 							<div class="video__line"></div>
@@ -52,12 +67,13 @@
 						</div>
 					</div>
 					<div class="intro__container">
-						<div class="intro__content">
-							<div data-watch-threshold="0.3" data-watch-once data-watch class="intro__wrapper">
-								<img class="intro__img" src="img/intro/logo-big.svg" alt="Big logo">
-								<h1 class="intro__title title">стройэнергогрупп</h1>
+						<div data-watch data-watch-margin="-25% 0px" data-watch-once class="intro__content">
+							<div data-watch data-watch-margin="-30% 0px" data-watch-once class="intro__wrapper">
+								<img class="intro__img _anim _anim-left-to-right" src="img/intro/logo-big.svg" alt="Big logo">
+								<h1 class="title intro__title _anim _anim-left-to-right">стройэнергогрупп</h1>
 							</div>
-							<p class="intro__desc">Динамично развивающаяся строительно - торговая группа на рынке
+							<p class="intro__desc _anim _anim-left-to-right">Динамично развивающаяся строительно - торговая
+								группа на рынке
 								строительных услуг полного цикла различной степени сложности.</p>
 						</div>
 					</div>
@@ -66,50 +82,55 @@
 				<section class="about">
 					<div class="about__container">
 						<div class="about__content">
-							<div class="about__info">
-								<h2 class="about__title title">о компании</h2>
-								<p class="about__text">ООО «СтройЭнергоГРУПП» на рынке с 2010 года, динамично развивается и
+							<div data-watch data-watch-margin="-25% 0px" data-watch-once class="about__info">
+								<h2 class="title about__title">о компании</h2>
+								<p class="about__text _anim _anim-left-to-right">ООО «СтройЭнергоГРУПП» на рынке с 2010
+									года, динамично развивается и
 									занимает лидирующие позиции в области строительства в РФ.</p>
-								<p class="about__text">На сегодняшний день компания «СтройЭнергоГРУПП» успешно выполняет
+								<p class="about__text _anim _anim-left-to-right">На сегодняшний день компания
+									«СтройЭнергоГРУПП» успешно выполняет
 									проекты
 									в промышленной, коммерческой, социальной и гражданско-бытовой сфере во многих регионах
 									России. </p>
-								<p class="about__text">Среди наших клиентов представлены крупные корпорации, а так же
+								<p class="about__text _anim _anim-left-to-right">Среди наших клиентов представлены крупные
+									корпорации, а так же
 									госструктуры, коммунальные и бюджетные предприятия.</p>
 							</div>
-							<div class="about__list">
-								<div class="about__item">
-									<span data-watch-threshold="1" data-watch-once data-watch class="about__number title">12</span>
+							<div data-watch data-watch-margin="-25% 0px" data-watch-once class="about__list">
+								<div class="about__ite _anim _anim-top-to-bottom">
+									<span class="title about__number">12</span>
 									<p class="about__desc">лет стабильной работы</p>
 								</div>
-								<div class="about__item">
-									<span data-watch-threshold="1" data-watch-once data-watch class="about__number title">350<span class="about__plus">+</span></span>
+								<div class="about__item _anim _anim-top-to-bottom">
+									<span class="title about__number">350<span class="about__plus">+</span></span>
 									<p class="about__desc">завершенных проектов</p>
 								</div>
-								<div class="about__item">
-									<span data-watch-threshold="1" data-watch-once data-watch class="about__number title">120</span>
+								<div class="about__item _anim _anim-top-to-bottom">
+									<span class="title about__number">120</span>
 									<p class="about__desc">человек в штате</p>
 								</div>
 							</div>
 						</div>
-						<div data-watch-threshold="0.3" data-watch-once data-watch class="about__member member">
-							<h3 class="member__title">Компания является Членом Ассоциации СРО:</h3>
-							<p class="member__text">Ассоциация «Мастер-Проект» РН СРО-П-202-0908218 подготовка проектной
-								документации РН в реестре СРО-421.</p>
-							<p class="member__text">Ассоциация «Объединенные строители» - строительство РН
-								СРО-С-113-15122009 РН в реестре СРО-977.</p>
+						<div data-watch data-watch-margin="-25% 0px" data-watch-once class="about__member member">
+							<h3 class="member__title _anim _anim-left-to-right">Компания является Членом Ассоциации
+								СРО:</h3>
+							<p class="member__text _anim _anim-left-to-right">Ассоциация «Мастер-Проект» РН
+								СРО-П-202-0908218 подготовка проектной документации РН в реестре СРО-421.</p>
+							<p class="member__text _anim _anim-left-to-right">Ассоциация «Объединенные строители» -
+								строительство РН СРО-С-113-15122009 РН в реестре СРО-977.</p>
 						</div>
 					</div>
 				</section>
 
 				<section class="activity">
 					<div class="activity__container">
-						<h2 class="activity__title title">направления деятельности</h2>
-						<div class="activity__grid grid">
-							<div data-watch-threshold="0" data-watch-once data-watch class="grid__item -ibg">
+						<h2 class="title activity__title">направления деятельности</h2>
+						<div data-watch data-watch-once data-watch-margin="-50% 0px" class="grid activity__grid">
+
+							<div class="grid__item -ibg _anim _anim-left-to-right">
 								<picture class="grid__img">
-									<source media="(min-width: 991.98px)" srcset="img/grid/containers.webp">
-									<img src="img/grid/containers-mob.webp" alt="Containers">
+									<source media="(min-width: 991.98px)" srcset="img/grid/containers.jpg">
+									<img src="img/grid/containers-mob.jpg" alt="Containers">
 								</picture>
 								<div class="grid__desc">
 									<h3 class="grid__title">строительство</h3>
@@ -118,10 +139,11 @@
 									<a href="#" data-popup="#popup" class="grid__link">Подробнее</a>
 								</div>
 							</div>
-							<div data-watch-threshold="0.3" data-watch-once data-watch class="grid__item -ibg">
+
+							<div class="grid__item -ibg _anim _anim-left-to-right">
 								<picture class="grid__img">
-									<source media="(min-width: 991.98px)" srcset="img/grid/crane.webp">
-									<img src="img/grid/crane-mob.webp" alt="Crane">
+									<source media="(min-width: 991.98px)" srcset="img/grid/crane.png">
+									<img src="img/grid/crane-mob.png" alt="Crane">
 								</picture>
 								<div class="grid__desc">
 									<h3 class="grid__title">снабжение</h3>
@@ -130,10 +152,11 @@
 									<a href="#" data-popup="#popup" class="grid__link">Подробнее</a>
 								</div>
 							</div>
-							<div data-watch-threshold="0.3" data-watch-once data-watch class="grid__item -ibg">
+
+							<div class="grid__item -ibg _anim _anim-right-to-left">
 								<picture class="grid__img">
-									<source media="(min-width: 991.98px)" srcset="img/grid/cable-man.webp">
-									<img src="img/grid/cable-man-mob.webp" alt="Cable man">
+									<source media="(min-width: 991.98px)" srcset="img/grid/cable-man.jpg">
+									<img src="img/grid/cable-man-mob.jpg" alt="Cable man">
 								</picture>
 								<div class="grid__desc">
 									<h3 class="grid__title">электроснабжение</h3>
@@ -141,10 +164,11 @@
 									<a href="#" data-popup="#popup" class="grid__link">Подробнее</a>
 								</div>
 							</div>
-							<div data-watch-threshold="0.3" data-watch-once data-watch class="grid__item -ibg">
+
+							<div class="grid__item -ibg _anim _anim-top-to-bottom">
 								<picture class="grid__img">
-									<source media="(min-width: 991.98px)" srcset="img/grid/walking-man.webp">
-									<img src="img/grid/walking-man-mob.webp" alt="Walking worker">
+									<source media="(min-width: 991.98px)" srcset="img/grid/walking-man.jpg">
+									<img src="img/grid/walking-man-mob.jpg" alt="Walking worker">
 								</picture>
 								<div class="grid__desc">
 									<h3 class="grid__title">электротехническое строительство </h3>
@@ -153,10 +177,11 @@
 									<a href="#" data-popup="#popup" class="grid__link">Подробнее</a>
 								</div>
 							</div>
-							<div data-watch-threshold="0.3" data-watch-once data-watch class="grid__item -ibg">
+
+							<div class="grid__item -ibg _anim _anim-right-to-left">
 								<picture class="grid__img">
-									<source media="(min-width: 991.98px)" srcset="img/grid/papers.webp">
-									<img src="img/grid/papers-mob.webp" alt="Project">
+									<source media="(min-width: 991.98px)" srcset="img/grid/papers.png">
+									<img src="img/grid/papers-mob.png" alt="Project">
 								</picture>
 								<div class="grid__desc">
 									<h3 class="grid__title">проектирование</h3>
@@ -164,6 +189,7 @@
 									<a href="#" data-popup="#popup" class="grid__link">Подробнее</a>
 								</div>
 							</div>
+
 						</div>
 					</div>
 				</section>
@@ -172,8 +198,9 @@
 
 			<section class="benefits">
 				<div class="benefits__container">
-					<div class="benefits__items">
-						<div data-watch-threshold="0" data-watch-once data-watch class="benefits__item">
+					<div data-watch data-watch-once data-watch-margin="-50% 0px" class="benefits__items">
+
+						<div class="benefits__item _anim _anim-left-to-right">
 							<div class="benefits__group">
 								<div class="benefits__icon">
 									<img class="benefits__img benefits__eiffel" src="img/benefits/eiffel.svg" alt="Eiffel">
@@ -183,7 +210,8 @@
 							<p class="benefits__subtitle">Компетенции сотрудников позволяет реализовывать самые сложные
 								и амбициозные проекты.</p>
 						</div>
-						<div data-watch-threshold="0.3" data-watch-once data-watch class="benefits__item">
+
+						<div class="benefits__item _anim _anim-left-to-right">
 							<div class="benefits__group">
 								<div class="benefits__icon">
 									<img class="benefits__img benefits__superman" src="img/benefits/superman.svg" alt="Superman">
@@ -193,7 +221,8 @@
 							<p class="benefits__subtitle">Широкий спектр специалистов позволяет закрывать 80% подряда
 								силами компании. Гарантируем все согласования и прохождение экспертизы.</p>
 						</div>
-						<div data-watch-threshold="0.6" data-watch-once data-watch class="benefits__item">
+
+						<div class="benefits__item _anim _anim-left-to-right">
 							<div class="benefits__group">
 								<div class="benefits__icon">
 									<img class="benefits__img benefits__mark" src="img/benefits/mark.svg" alt="Mark">
@@ -203,6 +232,7 @@
 							<p class="benefits__subtitle">Мобильность, большой опыт и контроль на всех этапах работ в
 								различных регионах Российской Федерации.</p>
 						</div>
+
 					</div>
 				</div>
 			</section>
@@ -210,15 +240,15 @@
 			<section class="objects">
 				<div class="objects__container">
 					<div class="objects__top">
-						<h2 class="objects__title title">реализованные объекты</h2>
+						<h2 class="title objects__title">реализованные объекты</h2>
 						<!-- Nav (left/right) -->
-						<div class="objects__btn-wrapper swiper-button-wrapper">
-							<button type="button" class="objects-button-prev swiper-button-prev">
+						<div class="swiper-button-wrapper objects__btn-wrapper">
+							<button type="button" class="swiper-button-prev objects-button-prev">
 								<svg width="22" height="36" viewBox="0 0 22 36" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path d="M18.3673 3.0007L3.34009 18.0282L18.3676 33.0557" stroke-width="4" stroke-linecap="square" />
 								</svg>
 							</button>
-							<button type="button" class="objects-button-next swiper-button-next">
+							<button type="button" class="swiper-button-next objects-button-next">
 								<svg width="22" height="36" viewBox="0 0 22 36" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path d="M3.31259 33.055L18.3398 18.0275L3.31232 2.99994" stroke-width="4" stroke-linecap="square" />
 								</svg>
@@ -226,97 +256,99 @@
 						</div>
 					</div>
 					<!-- Swiper Slider -->
-					<div data-watch-threshold="0.2" data-watch-once data-watch class="objects__swiper swiper">
-						<div class="objects__wrapper swiper-wrapper">
+					<div class="swiper objects__swiper">
+						<div class="swiper-wrapper objects__wrapper">
 							<!-- Slide -->
-							<div class="objects__slide swiper-slide">
-								<div class="objects__img-group">
-									<div class="objects__img">
-										<picture><source srcset="img/objects/build.webp" type="image/webp"><img src="img/objects/build.webp" alt="Build"></picture>
+							<div class="swiper-slide objects__slide">
+								<div data-watch data-watch-once data-watch-margin="-50% 0px" class="objects__img-group">
+									<div class="objects__img _anim _anim-left-to-right">
+										<picture><source srcset="img/objects/build.webp" type="image/webp"><img src="img/objects/build.jpg" alt="Build"></picture>
 									</div>
-									<div class="objects__img">
-										<picture><source srcset="img/objects/complex.webp" type="image/webp"><img src="img/objects/complex.webp" alt="Complex"></picture>
-									</div>
-								</div>
-							</div>
-
-							<div class="objects__slide swiper-slide">
-								<div class="objects__img-group">
-									<div class="objects__img">
-										<picture><source srcset="img/objects/complex.webp" type="image/webp"><img src="img/objects/complex.webp" alt="Complex"></picture>
-									</div>
-									<div class="objects__img">
-										<picture><source srcset="img/objects/build.webp" type="image/webp"><img src="img/objects/build.webp" alt="Build"></picture>
+									<div class="objects__img _anim _anim-right-to-left">
+										<picture><source srcset="img/objects/complex.webp" type="image/webp"><img src="img/objects/complex.jpg" alt="Complex"></picture>
 									</div>
 								</div>
 							</div>
 
-							<div class="objects__slide swiper-slide">
+							<div class="swiper-slide objects__slide">
 								<div class="objects__img-group">
 									<div class="objects__img">
-										<picture><source srcset="img/objects/build.webp" type="image/webp"><img src="img/objects/build.webp" alt="Build"></picture>
+										<picture><source srcset="img/objects/complex.webp" type="image/webp"><img src="img/objects/complex.jpg" alt="Complex"></picture>
 									</div>
 									<div class="objects__img">
-										<picture><source srcset="img/objects/complex.webp" type="image/webp"><img src="img/objects/complex.webp" alt="Complex"></picture>
+										<picture><source srcset="img/objects/build.webp" type="image/webp"><img src="img/objects/build.jpg" alt="Build"></picture>
 									</div>
 								</div>
 							</div>
 
-							<div class="objects__slide swiper-slide">
+							<div class="swiper-slide objects__slide">
 								<div class="objects__img-group">
 									<div class="objects__img">
-										<picture><source srcset="img/objects/build.webp" type="image/webp"><img src="img/objects/build.webp" alt="Build"></picture>
+										<picture><source srcset="img/objects/build.webp" type="image/webp"><img src="img/objects/build.jpg" alt="Build"></picture>
 									</div>
 									<div class="objects__img">
-										<picture><source srcset="img/objects/complex.webp" type="image/webp"><img src="img/objects/complex.webp" alt="Complex"></picture>
+										<picture><source srcset="img/objects/complex.webp" type="image/webp"><img src="img/objects/complex.jpg" alt="Complex"></picture>
 									</div>
 								</div>
 							</div>
 
-							<div class="objects__slide swiper-slide">
+							<div class="swiper-slide objects__slide">
 								<div class="objects__img-group">
 									<div class="objects__img">
-										<picture><source srcset="img/objects/build.webp" type="image/webp"><img src="img/objects/build.webp" alt="Build"></picture>
+										<picture><source srcset="img/objects/build.webp" type="image/webp"><img src="img/objects/build.jpg" alt="Build"></picture>
 									</div>
 									<div class="objects__img">
-										<picture><source srcset="img/objects/complex.webp" type="image/webp"><img src="img/objects/complex.webp" alt="Complex"></picture>
+										<picture><source srcset="img/objects/complex.webp" type="image/webp"><img src="img/objects/complex.jpg" alt="Complex"></picture>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide objects__slide">
+								<div class="objects__img-group">
+									<div class="objects__img">
+										<picture><source srcset="img/objects/build.webp" type="image/webp"><img src="img/objects/build.jpg" alt="Build"></picture>
+									</div>
+									<div class="objects__img">
+										<picture><source srcset="img/objects/complex.webp" type="image/webp"><img src="img/objects/complex.jpg" alt="Complex"></picture>
 									</div>
 								</div>
 							</div>
 						</div>
+						<!-- Pagination-->
+						<div class="swiper-pagination objects-pagination"></div>
+						<!-- /Pagination -->
 					</div>
-					<!-- Pagination-->
-					<div class="objects-pagination swiper-pagination"></div>
-					<!-- /Pagination -->
-					<div data-watch-threshold="0.5" data-watch-once data-watch class="objects__heading">
-						<span class="objects__desc">объект:</span>
-						<h3 class="objects__title">Сельскохозяйственный комплекс по выращиванию, убою и
+					<div data-watch data-watch-once data-watch-margin="-25% 0px" class="objects__heading">
+						<span class="objects__desc _anim _anim-left-to-right">объект:</span>
+						<h3 class="objects__title _anim _anim-top-to-bottom">Сельскохозяйственный комплекс по выращиванию,
+							убою и
 							преработке свиней «Мираторг», Курская область.</h3>
 					</div>
-					<div data-watch-threshold="0.5" data-watch-once data-watch class="objects__subheading">
-						<span class="objects__desc">работа:</span>
-						<p class="objects__text">Монтаж систем вентиляции, кондиционирования и
+					<div data-watch data-watch-once data-watch-margin="-25% 0px" class="objects__subheading">
+						<span class="objects__desc _anim _anim-left-to-right">работа:</span>
+						<p class="objects__text _anim _anim-top-to-bottom">Монтаж систем вентиляции, кондиционирования и
 							отопления.</p>
 					</div>
 				</div>
 			</section>
 
 			<section class="partners">
-				<div class="partners__container">
-					<div data-watch-threshold="0.3" data-watch-once data-watch class="partners__content">
-						<div class="partners__heading">
-							<h2 class="partners__title title">Наши партнёры</h2>
-							<p class="partners__subtitle">Наша компания дорожит репутацией надежного партнёра. Наша компания
+				<div data-watch data-watch-once data-watch-margin="-25% 0px" class="partners__container">
+					<div class="partners__content">
+						<div data-watch data-watch-once data-watch-margin="-20% 0px" class="partners__heading">
+							<h2 class="title partners__title _anim _anim-left-to-right">Наши партнёры</h2>
+							<p class="partners__subtitle _anim _anim-left-to-right">Наша компания дорожит репутацией
+								надежного партнёра. Наша компания
 								дорожит репутацией надежного партнёра.</p>
 						</div>
 
-						<div class="brands__btn-wrapper swiper-button-wrapper">
-							<button type="button" class="brands-button-prev swiper-button-prev">
+						<div class="swiper-button-wrapper brands__btn-wrapper">
+							<button type="button" class="swiper-button-prev brands-button-prev">
 								<svg width="22" height="36" viewBox="0 0 22 36" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path d="M18.3673 3.0007L3.34009 18.0282L18.3676 33.0557" stroke-width="4" stroke-linecap="square" />
 								</svg>
 							</button>
-							<button type="button" class="brands-button-next swiper-button-next">
+							<button type="button" class="swiper-button-next brands-button-next">
 								<svg width="22" height="36" viewBox="0 0 22 36" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path d="M3.31259 33.055L18.3398 18.0275L3.31232 2.99994" stroke-width="4" stroke-linecap="square" />
 								</svg>
@@ -325,10 +357,10 @@
 					</div>
 
 					<!-- Swiper Slider -->
-					<div data-watch-threshold="0.3" data-watch-once data-watch class="brands__swiper swiper">
-						<div class="brands__wrapper swiper-wrapper">
+					<div class="swiper brands__swiper _anim _anim-top-to-bottom">
+						<div class="swiper-wrapper brands__wrapper">
 							<!-- Slide -->
-							<div class="brands__slide swiper-slide">
+							<div class="swiper-slide brands__slide">
 								<div class="brands__desc">
 									<div class="brands__img">
 										<img src="img/partners/miratorg.svg" alt="Miratorg Logo">
@@ -336,10 +368,10 @@
 									<h3 class="brands__title">АХ «Мираторг»</h3>
 									<p class="brands__subtitle">Крупнейший агропромышленный холдинг полного цикла</p>
 								</div>
-								<a href="#" class="brands__link link-line">miratorg.ru</a>
+								<a href="#" class="link-line brands__link">miratorg.ru</a>
 							</div>
 
-							<div class="brands__slide swiper-slide">
+							<div class="swiper-slide brands__slide">
 								<div class="brands__desc">
 									<div class="brands__img">
 										<img src="img/partners/magnit.svg" alt="Magnit Logo">
@@ -347,22 +379,22 @@
 									<h3 class="brands__title">ПАО «Магнит»</h3>
 									<p class="brands__subtitle">Одна из ведущих розничных сетей в РФ</p>
 								</div>
-								<a href="#" class="brands__link link-line">magnit.ru</a>
+								<a href="#" class="link-line brands__link">magnit.ru</a>
 							</div>
 
-							<div class="brands__slide swiper-slide">
+							<div class="swiper-slide brands__slide">
 								<div class="brands__desc">
 									<div class="brands__img">
-										<picture><source srcset="img/partners/luzhniki.webp" type="image/webp"><img src="img/partners/luzhniki.webp" alt="Luzhniki Logo"></picture>
+										<picture><source srcset="img/partners/luzhniki.webp" type="image/webp"><img src="img/partners/luzhniki.png" alt="Luzhniki Logo"></picture>
 									</div>
 									<h3 class="brands__title">ОК «Лужники»</h3>
 									<p class="brands__subtitle">Крупнейший спортивно-развлекательный комплекс в России и
 										Европе</p>
 								</div>
-								<a href="#" class="brands__link link-line">luzhniki.ru</a>
+								<a href="#" class="link-line brands__link">luzhniki.ru</a>
 							</div>
 
-							<div class="brands__slide swiper-slide">
+							<div class="swiper-slide brands__slide">
 								<div class="brands__desc">
 									<div class="brands__img">
 										<img src="img/partners/miratorg.svg" alt="Miratorg Logo">
@@ -370,10 +402,10 @@
 									<h3 class="brands__title">АХ «Мираторг»</h3>
 									<p class="brands__subtitle">Крупнейший агропромышленный холдинг полного цикла</p>
 								</div>
-								<a href="#" class="brands__link link-line">miratorg.ru</a>
+								<a href="#" class="link-line brands__link">miratorg.ru</a>
 							</div>
 
-							<div class="brands__slide swiper-slide">
+							<div class="swiper-slide brands__slide">
 								<div class="brands__desc">
 									<div class="brands__img">
 										<img src="img/partners/magnit.svg" alt="Magnit Logo">
@@ -381,19 +413,19 @@
 									<h3 class="brands__title">ПАО «Магнит»</h3>
 									<p class="brands__subtitle">Одна из ведущих розничных сетей в РФ</p>
 								</div>
-								<a href="#" class="brands__link link-line">magnit.ru</a>
+								<a href="#" class="link-line brands__link">magnit.ru</a>
 							</div>
 
-							<div class="brands__slide swiper-slide">
+							<div class="swiper-slide brands__slide">
 								<div class="brands__desc">
 									<div class="brands__img">
-										<picture><source srcset="img/partners/luzhniki.webp" type="image/webp"><img src="img/partners/luzhniki.webp" alt="Luzhniki Logo"></picture>
+										<picture><source srcset="img/partners/luzhniki.webp" type="image/webp"><img src="img/partners/luzhniki.png" alt="Luzhniki Logo"></picture>
 									</div>
 									<h3 class="brands__title">ОК «Лужники»</h3>
 									<p class="brands__subtitle">Крупнейший спортивно-развлекательный комплекс в России и
 										Европе</p>
 								</div>
-								<a href="#" class="brands__link link-line">luzhniki.ru</a>
+								<a href="#" class="link-line brands__link">luzhniki.ru</a>
 							</div>
 
 						</div>
@@ -404,13 +436,13 @@
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
-				<div class="footer__content">
-					<a href="#" data-goto=".intro" data-goto-header class="footer__logo"><img src="img/footer/footer-logo.svg" alt="Footer Logo"></a>
-					<div class="footer__address">
+				<div data-watch data-watch-once data-watch-margin="-25% 0px" class="footer__content">
+					<a href="#" data-goto=".intro" data-goto-header class="footer__logo _anim _anim-top-to-bottom"><img src="img/footer/footer-logo.svg" alt="Footer Logo"></a>
+					<div class="footer__address _anim _anim-left-to-right">
 						<span class="footer__label">адрес</span>
 						<p>Москва, Звёздный б-р 10, стр. 1, к. 25</p>
 					</div>
-					<div class="footer__contacts">
+					<div class="footer__contacts _anim _anim-left-to-right">
 						<span class="footer__label">для связи</span>
 						<a href="tel:+79103333575">+7 (910) 333-35-75</a>
 						<span class="footer__separation">|</span>
@@ -418,30 +450,30 @@
 					</div>
 				</div>
 
-				<form data-watch-threshold="0.3" data-watch-once data-watch data-dev class="footer__form form">
+				<form data-watch data-watch-once data-watch-threshold="0.8" data-dev class="form footer__form">
 					<h2 class="form__title title">оставьте заявку</h2>
-					<div class="footer__info form__info">
+					<div class="footer__info form__info _anim _anim-top-to-bottom">
 
 						<div class="form__name input__wrapper">
 							<label class="input__label" for="name">Ваше имя</label>
-							<input class="form__input input" type="text" placeholder="Иван Иванов" name="name" id="name" data-required>
+							<input class="form__input input" type="text" placeholder="Иван Иванов" name="name" id="name" data-required data-validate>
 							<span class="input__error">Введите Ваше имя</span>
 						</div>
 
 						<div class="form__tel input__wrapper">
 							<label class="input__label" for="tel">Номер телефона</label>
-							<input class="form__input input" type="tel" name="tel" id="tel" data-required>
+							<input class="form__input input" type="tel" name="tel" id="tel" data-required data-validate>
 							<span class="input__error">Введите Ваш номер</span>
 						</div>
 
 					</div>
 
-					<div class="form__textarea input__wrapper">
+					<div class="form__textarea input__wrapper _anim _anim-top-to-bottom">
 						<label class="input__label" for="textarea">Комментарий</label>
 						<textarea id="textarea" autocomplete="off" name="textarea" placeholder="Опишите Ваш вопрос или просьбу и удобное время для связи." class="input__textarea input"></textarea>
 					</div>
 
-					<div class="form__row">
+					<div class="form__row _anim _anim-top-to-bottom">
 						<div class="footer__checkbox checkbox">
 							<input class="checkbox__input" type="checkbox" name="checkbox" id="checkbox" data-required>
 							<label class="checkbox__label" for="checkbox"></label>
@@ -452,12 +484,12 @@
 
 				</form>
 
-				<div class="footer__corporation">
-					<div class="footer__policy">
+				<div data-watch data-watch-once data-watch-margin="-10% 0px" class="footer__corporation">
+					<div class="footer__policy _anim  _anim _anim-left-to-right">
 						<p>Все права защищены 2010 - 2022 © ООО «СтройЭнергоГРУПП»</p>
 						<a href="#">Политика обработки персональных данных</a>
 					</div>
-					<a href="https://r-band.ru/" class="footer__copyright"><img src="img/footer/copyright-logo.svg" alt="Copyright Logo"></a>
+					<a href="#" class="footer__copyright  _anim _anim-left-to-right">Made with Love</a>
 				</div>
 
 			</div>
@@ -469,7 +501,7 @@
 			<div class="popup__content">
 				<div class="popup__img -ibg">
 					<picture>
-						<img src="img/grid/containers-mob.webp" alt="Containers">
+						<img src="img/grid/containers-mob.jpg" alt="Containers">
 					</picture>
 				</div>
 				<div class="popup__desc">
@@ -488,22 +520,22 @@
 						<div class="popup__info form__info">
 
 							<div class="popup__name input__wrapper">
-								<label class="popup__label input__label" for="name-popup">Ваше имя</label>
-								<input class="popup__input input" type="text" placeholder="Иван Иванов" name="name-popup" id="name-popup" data-required>
+								<label class="input__label popup__label" for="name-popup">Ваше имя</label>
+								<input class="input popup__input" type="text" placeholder="Иван Иванов" name="name-popup" id="name-popup" data-required>
 								<span class="input__error">Введите Ваше имя</span>
 							</div>
 
 							<div class="popup__tel input__wrapper">
-								<label class="popup__label input__label" for="tel-popup">Номер телефона</label>
-								<input class="popup__input input" type="tel" name="tel-popup" id="tel-popup" data-required>
+								<label class="input__label popup__label" for="tel-popup">Номер телефона</label>
+								<input class="input popup__input" type="tel" name="tel-popup" id="tel-popup" data-required>
 								<span class="input__error">Введите Ваш номер</span>
 							</div>
 
 						</div>
 
 						<div class="popup__area input__wrapper">
-							<label class="popup__label input__label" for="textarea-popup">Комментарий</label>
-							<textarea id="textarea-popup" autocomplete="off" name="textarea" placeholder="Опишите Ваш вопрос или просьбу и удобное время для связи." class="popup__textarea input"></textarea>
+							<label class="input__label popup__label" for="textarea">Комментарий</label>
+							<textarea id="textarea" autocomplete="off" name="textarea" placeholder="Опишите Ваш вопрос или просьбу и удобное время для связи." class="popup__textarea input"></textarea>
 						</div>
 
 						<div class="popup__row form__row">
@@ -514,15 +546,15 @@
 							</div>
 							<button type="submit" class="button__v2 button">Отправить</button>
 						</div>
+						<!--				<div id="success" class="popup__success success">-->
+						<!--					<p class="success__text"><span class="title">ваша заявка отправлена,</span>мы свяжемся с Вами в ближайшее время.</p>-->
+						<!--				</div>-->
 					</form>
-					<!--				<div id="success" class="popup__success success">-->
-					<!--					<p class="success__text"><span class="title">ваша заявка отправлена,</span>мы свяжемся с Вами в ближайшее время.</p>-->
-					<!--				</div>-->
 				</div>
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20230106075748"></script>
+	<script src="js/app.min.js?_v=20230307141852"></script>
 </body>
 
 </html>
