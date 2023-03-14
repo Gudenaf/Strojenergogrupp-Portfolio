@@ -3509,7 +3509,9 @@ body::after {
   .footer {
     padding: 34px 0 44px 0;
   }
-
+  .footer:after {
+      right: -25%;
+  }
   .footer__content {
     text-align: center;
     display: -webkit-box;
@@ -3643,22 +3645,16 @@ body::after {
   }
 }
 
-@media (29.99875em) {
-  .footer:after {
-    right: -25%;
-  }
-}
 
-.webp .footer:after{ background: url(../img/footer/footer-bg.webp) no-repeat center center/cover; }
 
-.webp .benefits{ background: url(../img/benefits/bg-man.webp) no-repeat center center/cover; }
+.footer:after{ background: url(../img/footer/footer-bg.webp) no-repeat center center/cover; }
+
+.benefits{ background: url(../img/benefits/bg-man.webp) no-repeat center center/cover; }
 
 @media (max-width: 61.99875em){
-
-  .webp .benefits{ background: url(../img/benefits/bg-man-mob.webp) no-repeat 80% center/cover; }
+  .benefits{ background: url(../img/benefits/bg-man-mob.webp) no-repeat 80% center/cover; }
 }
 
 @media (max-width: 47.99875em){
-
-  .webp .footer:after{ background: url(../img/footer/footer-bg-mob.webp) no-repeat center center/cover; }
+  .footer:after{ background: url(../img/footer/footer-bg-mob.webp) no-repeat center center/cover; }
 }
