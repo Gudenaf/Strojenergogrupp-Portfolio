@@ -7,7 +7,9 @@
     // Добавление loaded для HTML после полной загрузки страницы
     function addLoadedClass() {
         window.addEventListener("load", (function() {
+            document.documentElement.classList.add("lock");
             setTimeout((function() {
+                document.documentElement.classList.remove("lock");
                 document.documentElement.classList.add("loaded");
             }), 0);
         }));
@@ -357,16 +359,7 @@
             // Закрываем меню, если оно открыто
             document.documentElement.classList.contains("menu-open") ? menuClose() : null;
             // Прокрутка с использованием дополнения
-            if ("undefined" !== typeof SmoothScroll) (new SmoothScroll).animateScroll(targetBlockElement, "", options); else {
-                // Прокрутка стандартными средствами
-                let targetBlockElementPosition = targetBlockElement.getBoundingClientRect().top + scrollY;
-                targetBlockElementPosition = headerItemHeight ? targetBlockElementPosition - headerItemHeight : targetBlockElementPosition;
-                targetBlockElementPosition = offsetTop ? targetBlockElementPosition - offsetTop : targetBlockElementPosition;
-                window.scrollTo({
-                    top: targetBlockElementPosition,
-                    behavior: "smooth"
-                });
-            }
+            if ("undefined" !== typeof SmoothScroll) (new SmoothScroll).animateScroll(targetBlockElement, "", options);
         }
     };
 
